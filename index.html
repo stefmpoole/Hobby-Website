@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Website describing interior design as a hobby with example photos"
+    />
+    <title>Stefanie Poole Interior Design as a Hobby</title>
+    <style>
+      body {
+        display: block;
+        margin: 40px auto;
+        font-family: Arial, Helvetica, sans-serif;
+        background: radial-gradient(
+          621px at 25.3% 13.8%,
+          rgb(255, 255, 255) 0%,
+          rgb(234, 236, 255) 90%
+        );
+      }
+
+      h1 {
+        text-align: center;
+        margin: 5px;
+        font-size: 48px;
+      }
+
+      h2 {
+        text-align: center;
+        margin: 2px;
+      }
+
+      button {
+        border: 1 px solid white;
+        text-align: center;
+        background: white;
+        font-size: 20px;
+        border-radius: 6px;
+        padding: 10px 15px;
+        transition: all 150ms ease-in-out;
+        display: block;
+        margin: 0 auto;
+      }
+
+      button:hover {
+        background: #e0dedf;
+        cursor: pointer;
+      }
+
+      p {
+        line-height: 1.5;
+      }
+
+      footer {
+        font-size: 20px;
+        text-align: center;
+      }
+
+      a {
+        color: rgb(1, 27, 54);
+      }
+
+      .container {
+        max-width: 800px;
+        padding: 25px;
+        background-color: rgb(1, 27, 54);
+        color: white;
+        border-radius: 10px;
+        display: block;
+        margin: 20px auto;
+      }
+
+      .intro-img {
+        max-width: 400px;
+        display: block;
+        margin: 20px auto;
+        border: 2px solid;
+        border-color: white;
+        border-radius: 10px;
+        transition: transform 200ms ease-in-out, opacity 2000ms ease-in-out;
+      }
+
+      .intro-img:hover {
+        opacity: 0.7;
+        cursor: pointer;
+        transform: scale(1.1);
+      }
+
+      .before-after {
+        text-align: center;
+        font-size: 25px;
+        margin: 0px;
+      }
+
+      .img-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 28px;
+        padding: 20px;
+        transition: transform 200ms ease-in-out;
+      }
+
+      .dark {
+        background: linear-gradient(
+          112.1deg,
+          rgb(2, 28, 53) 11.4%,
+          rgb(63, 76, 119) 70.2%
+        );
+        color: white;
+      }
+
+      .dark .container {
+        background-color: white;
+        color: black;
+      }
+
+      .dark a {
+        color: white;
+      }
+
+      #before-after-img {
+        border-radius: 10px;
+        border: 1px solid white;
+        width: 100%;
+      }
+
+      #before-after-img:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <button class="dark-button">Dark theme</button>
+    <div class="container">
+      <h1>Interior Design</h1>
+      <h2>A Hobby that turns a House into a Home</h2>
+
+      <a
+        href="https://www.wikihow.com/Design-a-Room"
+        title="wikihow interior design as hobby"
+        target="_blank"
+      >
+        <img
+          src="https://images.pexels.com/photos/6583362/pexels-photo-6583362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          target="_blank"
+          alt="interior design img"
+          class="intro-img"
+        />
+      </a>
+      <p>
+        Do you have a strong interest in interior design? For some, it is a
+        hobby, while for others, it is their chosen career. I personally pursue
+        it as a hobby-it is a passion that I am lucky enough to share with my
+        daughter (who also delights in a good "room makeover"). Through interior
+        design, we not only create lasting memories and beautiful
+        spaces...together, we create our home 💖.
+      </p>
+      <p>
+        My goal in designing (or sometimes re-designing) is to construct an
+        aesthetically pleasing environment that also conveys a sense of comfort.
+        I get immense satisfaction from "beautifying" the areas around me. I
+        love to look past the ugly and see true hidden potential. I am an
+        individual who is perpetually rearranging furniture, capturing
+        screenshots for inspiration, binge-watching home improvement channels,
+        and forever adding to my idea boards on Pinterest.
+      </p>
+      <p>
+        So if you find yourself a kindred spirit, with a love for interior
+        design, I have posted some before and after photos for you below (the
+        before photos are actual listing photos used for the house-prior to my
+        purchase). I hope you enjoy them, and are possibly even inspired, to
+        make your own spaces feel a little more like home.
+      </p>
+      <hr />
+      <div class="img-grid">
+        <span class="before-after">Before</span>
+        <span class="before-after">After</span>
+        <img
+          src="images/kitchenbefore1.jpeg"
+          target="_blank"
+          alt="kitchen before img"
+          id="before-after-img"
+        />
+        <img
+          src="images/kitchenremodel1.jpeg"
+          target="_blank"
+          alt="kitchen remodel img"
+          id="before-after-img"
+        />
+        <img
+          src="images/bathroombefore1.jpeg"
+          target="_blank"
+          alt="bathroom before img"
+          id="before-after-img"
+        />
+        <img
+          src="images/bathroomremodel1.jpeg"
+          target="_blank"
+          alt="bathroom remodel img"
+          id="before-after-img"
+        />
+        <img
+          src="images/livingroombefore1.jpeg"
+          target="_blank"
+          alt="livingroom before img"
+          id="before-after-img"
+        />
+        <img
+          src="images/livingroomremodel1.jpeg"
+          target="_blank"
+          alt="livingroom remodel img"
+          id="before-after-img"
+        />
+      </div>
+    </div>
+    <footer>
+      Coded by
+      <a href="https://stefpoole.netlify.app/" target="_blank"
+        >Stefanie Poole</a
+      >
+    </footer>
+    <script>
+      function makeItDark() {
+        let body = document.querySelector("body");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+
+      let themeButton = document.querySelector(".dark-button");
+      themeButton.addEventListener("click", makeItDark);
+    </script>
+  </body>
+</html>
